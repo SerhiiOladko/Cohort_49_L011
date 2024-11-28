@@ -1,12 +1,15 @@
-package lessons.lesson.task_01;
+package lessons.lesson_01.task_01;
 
-public class MyTheard2 implements Runnable {
+
+
+public class MyThread1 extends Thread{
+
     @Override
     public void run() {
-        for (int i = 10_000; i < 10_010; i++) {
+        for (int i = 100; i < 110; i++) {
             System.out.println(Thread.currentThread().getName() + " - " + i);
             try {
-                Thread.sleep(500);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

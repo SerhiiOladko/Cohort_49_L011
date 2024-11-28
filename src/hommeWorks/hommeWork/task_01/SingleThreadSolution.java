@@ -16,7 +16,7 @@ public class SingleThreadSolution {
 
         long endTime = System.currentTimeMillis();
         System.out.println("Результат в один поток: " + count);
-        System.out.println("Время выполнения: " + (endTime - startTime) + " мс");
+        System.out.println("Время выполнения: " + (endTime - startTime) + "ms");
     }
 }
 

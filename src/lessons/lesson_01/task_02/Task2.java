@@ -1,4 +1,4 @@
-package lessons.lesson.task_02;
+package lessons.lesson_01.task_02;
 
 
 

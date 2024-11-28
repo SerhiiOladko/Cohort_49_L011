@@ -1,7 +1,7 @@
-package lessons.lesson.task_03;
+package lessons.lesson_01.task_03;
 
 
-import lessons.lesson.task_02.MyThread;
+import lessons.lesson_01.task_02.MyThread;
 
 public class Task3 {
     private static int counter = 0;
