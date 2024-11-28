@@ -1,9 +1,9 @@
-package task_01;
+package lessons.lesson.task_01;
 
 public class Task_1 {
     public static void main(String[] args) {
 
-        MainThread1 myThread1 = new MainThread1();
+        MyThread1 myThread1 = new MyThread1();
         MyTheard2 myTheard2 = new MyTheard2();
 
         // mainThread1.run();
